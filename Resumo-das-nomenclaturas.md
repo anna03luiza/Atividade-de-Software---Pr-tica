@@ -57,3 +57,8 @@ Já o IN é usado para verificar a presença de um item em uma sequência.
 
 registros = cursor.fetchall() = esse comando retorna todos os registros da tabela 'squad', que criamos, como uma lista de tuplas e armazena essa lista na variável "registros".
 
+o método de inserir '?' nos comando SQL são viáveis, pois eles ajudam a não haver ataques de SQL injection e corromper o código, além de ser muito claro.
+
+placeholders garantem que os valores fornecidos sejam tratados como dados e não como parte da consulta SQL. Isso impede que um atacante injete código SQL malicioso nos valores.
+
+fetchall() = se a consulta retornar um grande número de linhas, ele pode consumir muita memória, pois todos os dados são carregados de uma vez. Em casos assim, tem outra ferramenta que mostra melhores resultados.
