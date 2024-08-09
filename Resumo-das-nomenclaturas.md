@@ -64,3 +64,5 @@ o método de inserir '?' nos comando SQL são viáveis, pois eles ajudam a não 
 placeholders garantem que os valores fornecidos sejam tratados como dados e não como parte da consulta SQL. Isso impede que um atacante injete código SQL malicioso nos valores.
 
 fetchall() = se a consulta retornar um grande número de linhas, ele pode consumir muita memória, pois todos os dados são carregados de uma vez. Em casos assim, tem outra ferramenta que mostra melhores resultados.
+
+While = permite repetir a execução de um bloco de código, sempre que a condição do loop seja verdadeira.
