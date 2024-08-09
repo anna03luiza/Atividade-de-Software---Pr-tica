@@ -4,6 +4,8 @@ sqlite3.connect('squad.db') = conecta ao banco de dados SQLite com o mesmo nome,
 
 'squad.db'. Se o banco de dados não existir, ele será criado;
 
+fetchall = é poderoso e conveniente para recuperar e processar todas as linhas de resultados de uma consulta SQL em uma única chamada.
+
 conn.cursor() = Cria um cursor para executar comandos SQL no banco de dados;
 
 conectar = função que irá retornar uma conexão com o banco de dados 'squad.db'
